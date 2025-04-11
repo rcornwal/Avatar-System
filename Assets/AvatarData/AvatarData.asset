@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a77968f22e774f30bd337b2993e7187, type: 3}
+  m_Name: AvatarData
+  m_EditorClassIdentifier: 
+  hairs:
+  - {fileID: 11400000, guid: 9b6612e9749df469eb2e0382799895f8, type: 2}
+  - {fileID: 11400000, guid: 752b77ced6ac14f76869ad31ea495cf1, type: 2}
+  tops:
+  - {fileID: 11400000, guid: efbfaec5138bf4129baa4abfe59c374d, type: 2}
+  - {fileID: 11400000, guid: 70aebe64090934cc2964dd4a94ba6ba1, type: 2}
+  - {fileID: 11400000, guid: 50b66ddc140584872843d1a8a9723450, type: 2}
+  bottoms:
+  - {fileID: 11400000, guid: e36e5d21a84fe468f99faa37ba72e46d, type: 2}
+  - {fileID: 11400000, guid: c85db50461df6499982f43d414034ab4, type: 2}
+  - {fileID: 11400000, guid: dff9b17047fbb4b65bfe01a3cb075cbe, type: 2}

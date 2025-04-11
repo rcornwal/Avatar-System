@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52133abd18984870a2aadbdd70be9ba, type: 3}
+  m_Name: RestPoseData
+  m_EditorClassIdentifier: 
+  bones:
+  - boneName: Armature
+    localPosition: {x: -0, y: 0, z: 0}
+    localRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  - boneName: Root_M
+    localPosition: {x: 0.00006825994, y: 0.0009251195, z: 0.010546591}
+    localRotation: {x: -0.7035205, y: 0.021803988, z: 0.7089987, w: -0.043639444}
+  - boneName: Hip_L
+    localPosition: {x: 0.00074360083, y: 0.000038798076, z: 0.0010902629}
+    localRotation: {x: 0.9991594, y: -0.011062826, z: 0.015954964, w: -0.036104694}
+  - boneName: Knee_L
+    localPosition: {x: 0.004809661, y: 0.000000002379529, z: 0.00000003405614}
+    localRotation: {x: -0.00000085138583, y: 0.0000058441015, z: 0.070790015, w: 0.99749124}
+  - boneName: Ankle_L
+    localPosition: {x: 0.004152881, y: 0.000000005420297, z: 0.00000007814029}
+    localRotation: {x: -0.0128543405, y: -0.014828676, z: -0.07270663, w: 0.9971603}
+  - boneName: Toes_L
+    localPosition: {x: 0.0006723811, y: -0.0013043797, z: 0.000000012097153}
+    localRotation: {x: -0.011100687, y: -0.0075679347, z: -0.7016283, w: 0.71241647}
+  - boneName: ToesEnd_L
+    localPosition: {x: 0.0006212817, y: 1.7229468e-10, z: -0.0000000017604906}
+    localRotation: {x: -0.00000011609518, y: -0.00000036123674, z: 0.00000014899342,
+      w: 1}
+  - boneName: Hip_R
+    localPosition: {x: 0.0007435634, y: 0.00003879355, z: -0.0010903085}
+    localRotation: {x: 0.011062047, y: 0.9991592, z: -0.03610546, w: -0.015967682}
+  - boneName: Knee_R
+    localPosition: {x: -0.0048096688, y: 0.000000006179325, z: 0.00000012931413}
+    localRotation: {x: 0.0000016507196, y: 0.000004316333, z: 0.07079014, w: 0.99749124}
+  - boneName: Ankle_R
+    localPosition: {x: -0.004152885, y: 0.0000000036880372, z: 0.00000007526949}
+    localRotation: {x: -0.012856413, y: -0.014819726, z: -0.072706535, w: 0.99716043}
+  - boneName: Toes_R
+    localPosition: {x: -0.0006723806, y: 0.0013043808, z: 8.1432516e-10}
+    localRotation: {x: -0.011106097, y: -0.0075598625, z: -0.70162874, w: 0.71241605}
+  - boneName: ToesEnd_R
+    localPosition: {x: -0.0006212814, y: -3.0879163e-10, z: -6.68806e-10}
+    localRotation: {x: 0.00000012363307, y: -0.00000020562582, z: -0.000000030573574,
+      w: 1}
+  - boneName: Spine1_M
+    localPosition: {x: -0.0010011398, y: -2.136221e-10, z: 0.00000003088058}
+    localRotation: {x: 0.00000046141417, y: 0.000004471015, z: 0.01800427, w: 0.99983793}
+  - boneName: Spine2_M
+    localPosition: {x: -0.0010998773, y: -0.000000003328605, z: 0.000000024045384}
+    localRotation: {x: 0.00000081052667, y: 0.0000013738875, z: 0.03926736, w: 0.9992288}
+  - boneName: Chest_M
+    localPosition: {x: -0.00093756226, y: 0.0000000022706808, z: 0.000000017914681}
+    localRotation: {x: 0.000001397897, y: -0.000000108147844, z: 0.073062316, w: 0.9973274}
+  - boneName: Neck_M
+    localPosition: {x: -0.0018900745, y: -0.0000000053388067, z: 0.000000036541405}
+    localRotation: {x: -0.0000029501275, y: -0.00000022907801, z: -0.15084226, w: 0.9885578}
+  - boneName: Head_M
+    localPosition: {x: -0.00095337717, y: -0.0000000016851117, z: 0.000000018856662}
+    localRotation: {x: 0.00000022306133, y: 0.000001950133, z: 0.012258869, w: 0.9999249}
+  - boneName: Eye_L
+    localPosition: {x: -0.0008497955, y: 0.0015275767, z: 0.00039238713}
+    localRotation: {x: 0.11852673, y: 0.11853783, z: -0.6971023, w: 0.6971001}
+  - boneName: EyeEnd_L
+    localPosition: {x: -0.00019088076, y: 6.513437e-10, z: -0.0000000010337681}
+    localRotation: {x: 0.000000064843334, y: 0.0000032384705, z: 0.0000000037252903,
+      w: 1}
+  - boneName: Eye_R
+    localPosition: {x: -0.0008497975, y: 0.001527575, z: -0.00039236012}
+    localRotation: {x: -0.11853847, y: -0.118527375, z: -0.69710034, w: 0.69710183}
+  - boneName: EyeEnd_R
+    localPosition: {x: -0.00019088082, y: 0.000000002149609, z: 0.0000000012945384}
+    localRotation: {x: -0.00000005285256, y: -0.000003077963, z: 0.00000009912764,
+      w: 1}
+  - boneName: HeadEnd_M
+    localPosition: {x: -0.0022605662, y: -2.7241184e-10, z: 0.00000003593148}
+    localRotation: {x: -0.0000000017898856, y: 0.000000013154931, z: -0.0000000022773747,
+      w: 1}
+  - boneName: Jaw_M
+    localPosition: {x: -0.00046136146, y: 0.00047871715, z: 0.000000007302624}
+    localRotation: {x: 0.0000024268331, y: -0.000006089818, z: 0.8865346, w: -0.46266237}
+  - boneName: JawEnd_M
+    localPosition: {x: -0.0014859755, y: -0.000000005455513, z: -0.000000015480973}
+    localRotation: {x: 0.000000003259629, y: 0.0000000010477379, z: -0.000000050960804,
+      w: 1}
+  - boneName: jnt_eyeBrow_L
+    localPosition: {x: -0.0012754181, y: 0.0016899109, z: 0.0005200862}
+    localRotation: {x: 0.7357249, y: 0.5957475, z: 0.20273708, w: -0.2503826}
+  - boneName: jnt_eyeBrow_LEnd_L
+    localPosition: {x: 0.000117230076, y: -0.0000000020256266, z: 0.0000000013317912}
+    localRotation: {x: -0.000001073815, y: 0.000007380499, z: -0.0000013075769, w: 1}
+  - boneName: jnt_eyeBrow_R
+    localPosition: {x: -0.0012754209, y: 0.001689909, z: -0.00052004575}
+    localRotation: {x: -0.5957504, y: 0.73572236, z: -0.25037324, w: -0.20274945}
+  - boneName: jnt_eyeBrowEnd_R
+    localPosition: {x: -0.000117230826, y: 3.4691766e-10, z: -0.000000001117587}
+    localRotation: {x: 0.00000078883033, y: 0.0000035176058, z: -0.000000467524, w: 1}
+  - boneName: jnt_eyelid_L
+    localPosition: {x: -0.001001695, y: 0.0015028084, z: 0.00040415162}
+    localRotation: {x: 0.7071067, y: 0.7071069, z: -0.000006714912, w: -0.000004350038}
+  - boneName: jnt_eyelid_LEnd_L
+    localPosition: {x: 0.00016970608, y: 0.000035471203, z: -0.00007260512}
+    localRotation: {x: 0.000000099127654, y: 0.000000032174285, z: 0.000000002932211,
+      w: 1}
+  - boneName: jnt_eyelid_R
+    localPosition: {x: -0.0010016969, y: 0.0015028068, z: -0.0004041198}
+    localRotation: {x: 0.7071069, y: -0.70710665, z: -0.000006112787, w: 0.000005120751}
+  - boneName: jnt_eyelidEnd_R
+    localPosition: {x: -0.00016970589, y: -0.00003547382, z: 0.00007260481}
+    localRotation: {x: -0.000000074505806, y: -0.000000009051291, z: -0.00000004337562,
+      w: 1}
+  - boneName: Scapula_L
+    localPosition: {x: -0.0010385223, y: -0.00028482993, z: 0.0004249802}
+    localRotation: {x: 0.7005076, y: -0.11653335, z: 0.6948247, w: 0.11370046}
+  - boneName: Shoulder_L
+    localPosition: {x: 0.0016017217, y: -0.000012367288, z: 0.000008144677}
+    localRotation: {x: 0.10456675, y: -0.004704425, z: 0.15599069, w: 0.9821968}
+  - boneName: Elbow_L
+    localPosition: {x: 0.0028469795, y: 0.000000018328429, z: -0.000000028423964}
+    localRotation: {x: -0.0000010789635, y: 0.00000015846852, z: -0.14919037, w: 0.9888085}
+  - boneName: Wrist_L
+    localPosition: {x: 0.0029833626, y: -0.000000009275973, z: -0.000000042663885}
+    localRotation: {x: -0.074432835, y: 0.120888904, z: -0.09330095, w: 0.98546463}
+  - boneName: IndexFinger1_L
+    localPosition: {x: 0.0012306273, y: -0.00027789443, z: 0.000017401948}
+    localRotation: {x: -0.020432953, y: -0.18025845, z: -0.01189169, w: 0.98333514}
+  - boneName: IndexFinger2_L
+    localPosition: {x: 0.00041857906, y: 0, z: -0.0000000021048618}
+    localRotation: {x: -0.002234517, y: -0.16249172, z: 0.0112098595, w: 0.98664373}
+  - boneName: IndexFinger3_L
+    localPosition: {x: 0.00042287464, y: -0.0000000038743018, z: -0.0000000028219074}
+    localRotation: {x: -0.011704064, y: -0.043155618, z: 0.006215227, w: 0.9989805}
+  - boneName: IndexFinger4_L
+    localPosition: {x: 0.00035243793, y: -0.000000003185123, z: 0.0000000038556753}
+    localRotation: {x: 0.0000010775402, y: 0.0000009825454, z: -0.0000015893021, w: 1}
+  - boneName: jointItemL
+    localPosition: {x: 0.0009961986, y: 0.00011814013, z: 0.00040954596}
+    localRotation: {x: 0.9840696, y: 0.02861087, z: 0.17448373, w: -0.018545145}
+  - boneName: MiddleFinger1_L
+    localPosition: {x: 0.0012055031, y: -0.000000010803341, z: -0.000000010859221}
+    localRotation: {x: 0.013268431, y: -0.21241684, z: 0.06271596, w: 0.97507423}
+  - boneName: MiddleFinger2_L
+    localPosition: {x: 0.00047338623, y: -0.0000000013783574, z: 1.4901161e-10}
+    localRotation: {x: 0.033359535, y: -0.06853099, z: -0.0074406476, w: 0.99706334}
+  - boneName: MiddleFinger3_L
+    localPosition: {x: 0.00039243067, y: -0.0000000016018747, z: 0.000000013560056}
+    localRotation: {x: 0.00064175494, y: -0.09504986, z: -0.004234061, w: 0.9954633}
+  - boneName: MiddleFinger4_L
+    localPosition: {x: 0.00039770594, y: -0.0000000016018747, z: 0.0000000027194618}
+    localRotation: {x: 0.0000020093285, y: 0.0000022170134, z: 0.0000006053597, w: 1}
+  - boneName: PinkyFinger1_L
+    localPosition: {x: 0.0011517429, y: 0.0005928342, z: 0.000096757816}
+    localRotation: {x: 0.09899336, y: -0.27579847, z: 0.14115562, w: 0.94562715}
+  - boneName: PinkyFinger2_L
+    localPosition: {x: 0.0004254648, y: 0.000000005364418, z: -0.000000007152557}
+    localRotation: {x: 0.047988027, y: -0.0658242, z: -0.011868822, w: 0.996606}
+  - boneName: PinkyFinger3_L
+    localPosition: {x: 0.00029328265, y: 0.0000000021606683, z: 0.000000016093253}
+    localRotation: {x: 0.030735483, y: -0.034783382, z: 0.0025154795, w: 0.998919}
+  - boneName: PinkyFinger4_L
+    localPosition: {x: 0.0003040536, y: 8.9406965e-10, z: 0.0000000035762786}
+    localRotation: {x: -0.00000021234158, y: 0.0000006705523, z: -0.0000008540229,
+      w: 1}
+  - boneName: RingFinger1_L
+    localPosition: {x: 0.0011971553, y: 0.00030547028, z: 0.000016303602}
+    localRotation: {x: 0.067793794, y: -0.23520058, z: 0.09985668, w: 0.96442384}
+  - boneName: RingFinger2_L
+    localPosition: {x: 0.000464645, y: 0.0000000026263296, z: -0.0000000035017729}
+    localRotation: {x: 0.013187596, y: -0.09921193, z: -0.00094271125, w: 0.9949785}
+  - boneName: RingFinger3_L
+    localPosition: {x: 0.00034416778, y: 0.0000000013038516, z: 0.000000007450581}
+    localRotation: {x: 0.03708065, y: -0.059253678, z: -0.002842757, w: 0.99754995}
+  - boneName: RingFinger4_L
+    localPosition: {x: 0.0003722976, y: -0.0000000017136335, z: 0.000000007152557}
+    localRotation: {x: -0.00000082189223, y: 0.0000011855736, z: -0.0000013485551,
+      w: 1}
+  - boneName: ThumbFinger1_L
+    localPosition: {x: 0.0001682651, y: -0.00041840464, z: 0.000052710024}
+    localRotation: {x: -0.5392993, y: -0.16166334, z: -0.35892314, w: 0.744443}
+  - boneName: ThumbFinger2_L
+    localPosition: {x: 0.0005841851, y: -0.000000015050173, z: -0.000000013671815}
+    localRotation: {x: 0.017650068, y: -0.0061243265, z: -0.03605222, w: 0.9991753}
+  - boneName: ThumbFinger3_L
+    localPosition: {x: 0.00042904756, y: -0.000000007227063, z: -0.0000000115484}
+    localRotation: {x: 0.04030585, y: -0.09790948, z: 0.07242623, w: 0.9917377}
+  - boneName: ThumbFinger4_L
+    localPosition: {x: 0.00041461975, y: -0.0000000043213366, z: -0.000000007897615}
+    localRotation: {x: 0.00000050105155, y: 0.0000016763809, z: -0.0000006239861,
+      w: 1}
+  - boneName: Scapula_R
+    localPosition: {x: -0.0010385273, y: -0.00028483517, z: -0.00042494005}
+    localRotation: {x: -0.11653686, y: -0.7005084, z: -0.11369511, w: 0.6948241}
+  - boneName: Shoulder_R
+    localPosition: {x: -0.0016017252, y: 0.000012362413, z: -0.000008124364}
+    localRotation: {x: 0.10456705, y: -0.0046904446, z: 0.15598857, w: 0.9821972}
+  - boneName: Elbow_R
+    localPosition: {x: -0.002846989, y: -0.00000003784895, z: -0.000000013667158}
+    localRotation: {x: 0.0000009423197, y: 0.0000010059102, z: -0.14919077, w: 0.98880845}
+  - boneName: Wrist_R
+    localPosition: {x: -0.0029833678, y: -0.000000015497207, z: -0.000000006714836}
+    localRotation: {x: -0.07443174, y: 0.12089373, z: -0.09330036, w: 0.9854642}
+  - boneName: IndexFinger1_R
+    localPosition: {x: -0.0012306208, y: 0.00027789152, z: -0.00001742972}
+    localRotation: {x: -0.020432966, y: -0.18026349, z: -0.0118913185, w: 0.98333424}
+  - boneName: IndexFinger2_R
+    localPosition: {x: -0.00041858028, y: 1.862645e-10, z: -0.0000000034074763}
+    localRotation: {x: -0.0022329064, y: -0.16248931, z: 0.011209075, w: 0.9866441}
+  - boneName: IndexFinger3_R
+    localPosition: {x: -0.00042287863, y: 0.0000000014994294, z: -0.0000000037252903}
+    localRotation: {x: -0.011704731, y: -0.04316342, z: 0.006215183, w: 0.99898016}
+  - boneName: IndexFinger4_R
+    localPosition: {x: -0.00035244325, y: 0.0000000016018747, z: -0.0000000051781535}
+    localRotation: {x: 0.000001043547, y: 0.0000023941975, z: -0.0000015862752, w: 1}
+  - boneName: jointItemR
+    localPosition: {x: -0.0009961918, y: -0.0001181443, z: -0.00040957256}
+    localRotation: {x: -0.0277101, y: 0.9748108, z: 0.019865975, w: 0.22041214}
+  - boneName: MiddleFinger1_R
+    localPosition: {x: -0.001205497, y: 0.000000007972121, z: -0.000000018291175}
+    localRotation: {x: 0.013268304, y: -0.21242481, z: 0.06271513, w: 0.97507256}
+  - boneName: MiddleFinger2_R
+    localPosition: {x: -0.0004733901, y: -2.7474015e-10, z: -0.0000000032223761}
+    localRotation: {x: 0.03336099, y: -0.06852812, z: -0.007440972, w: 0.99706346}
+  - boneName: MiddleFinger3_R
+    localPosition: {x: -0.00039243387, y: -0.0000000017508864, z: -0.00000001527369}
+    localRotation: {x: 0.0006416154, y: -0.095051356, z: -0.004232965, w: 0.9954632}
+  - boneName: MiddleFinger4_R
+    localPosition: {x: -0.0003977114, y: -3.4691766e-10, z: -0.000000006370246}
+    localRotation: {x: -0.0000013168612, y: -0.00000034621917, z: 0.00000075026776,
+      w: 1}
+  - boneName: PinkyFinger1_R
+    localPosition: {x: -0.0011517373, y: -0.00059283775, z: -0.00009678658}
+    localRotation: {x: 0.09899152, y: -0.27580371, z: 0.14115627, w: 0.94562566}
+  - boneName: PinkyFinger2_R
+    localPosition: {x: -0.00042546986, y: -0.000000008195639, z: 0.0000000013411044}
+    localRotation: {x: 0.047984034, y: -0.06582545, z: -0.0118708145, w: 0.9966061}
+  - boneName: PinkyFinger3_R
+    localPosition: {x: -0.00029330002, y: -0.000000005364418, z: -0.000000017434358}
+    localRotation: {x: 0.030738223, y: -0.034785245, z: 0.002515245, w: 0.99891883}
+  - boneName: PinkyFinger4_R
+    localPosition: {x: -0.00030405668, y: -0.0000000023841857, z: -0.0000000047683715}
+    localRotation: {x: 0.0000028312206, y: 0.000000106170766, z: 0.0000015910481,
+      w: 1}
+  - boneName: RingFinger1_R
+    localPosition: {x: -0.001197147, y: -0.00030547305, z: -0.000016333795}
+    localRotation: {x: 0.0677919, y: -0.2352059, z: 0.09985573, w: 0.96442276}
+  - boneName: RingFinger2_R
+    localPosition: {x: -0.00046464792, y: -0.0000000063329932, z: -0.0000000035017729}
+    localRotation: {x: 0.013189714, y: -0.09921228, z: -0.00094330485, w: 0.9949784}
+  - boneName: RingFinger3_R
+    localPosition: {x: -0.00034417163, y: -0.0000000045448543, z: -0.0000000085681675}
+    localRotation: {x: 0.037080415, y: -0.059254818, z: -0.0028427339, w: 0.9975499}
+  - boneName: RingFinger4_R
+    localPosition: {x: -0.00037230452, y: -0.0000000019371509, z: -0.000000007897615}
+    localRotation: {x: -0.0000011771918, y: -0.00000058999285, z: -0.0000021038577,
+      w: 1}
+  - boneName: ThumbFinger1_R
+    localPosition: {x: -0.00016826492, y: 0.00041840508, z: -0.0000527128}
+    localRotation: {x: -0.5392973, y: -0.16166486, z: -0.35892507, w: 0.74444324}
+  - boneName: ThumbFinger2_R
+    localPosition: {x: -0.00058419176, y: 0.000000020600854, z: 0.0000000051036477}
+    localRotation: {x: 0.017651966, y: -0.006123955, z: -0.036054734, w: 0.9991752}
+  - boneName: ThumbFinger3_R
+    localPosition: {x: -0.0004290609, y: 0.000000010095537, z: 0.0000000029057263}
+    localRotation: {x: 0.04030468, y: -0.09790969, z: 0.07242904, w: 0.99173754}
+  - boneName: ThumbFinger4_R
+    localPosition: {x: -0.0004146238, y: 0.000000011660158, z: 0.0000000013411044}
+    localRotation: {x: 0.0000001862645, y: 0.000001007691, z: -0.00000067427754, w: 1}

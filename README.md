@@ -34,5 +34,5 @@ This solution was chosen over GPU instancing or material atlasing because:
 **Before Baking**
 <img width="776" alt="Screenshot 2025-04-11 at 10 19 52 AM" src="https://github.com/user-attachments/assets/7617b41a-27ff-408d-8bf7-dbbb7e979ae7" />
 
-**After Backing**
+**After Baking**
 <img width="744" alt="Screenshot 2025-04-11 at 10 26 58 AM" src="https://github.com/user-attachments/assets/bd459b00-aeab-482d-b1f6-3fd9fbec7fbf" />

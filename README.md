@@ -8,8 +8,8 @@ This system was designed to support modular 3D avatars, where each character can
 * All avatar parts are rigged to the same armature hierarchy.
 * The armature exists once in the scene and drives all meshes.
 * There is one animator that drives motion for all parts.
-* Each part prefab is made of 1 skinned mesh renderer. It's stripped of its original armature and uses a pre-captured BoneMap asset to rebuild the bones array.
-* A RestPoseData asset is used to restore the skeleton to a known rest pose before rebaking, ensuring consistent mesh deformation during animation.
+* Each part prefab is made of 1 `SkinnedMeshRenderer`. It only contains the geometry and uses a pre-captured BoneMap asset to rebuild the bones array.
+* A `RestPoseData` asset is used to restore the skeleton to a known rest pose before rebaking, keeping consistent mesh deformation during animation.
 
 ## Rendering Optimization
 To reduce draw calls, I implemented a custom runtime skinned mesh combiner:
